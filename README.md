@@ -1,33 +1,33 @@
-# Projecte de Sistema de Diàleg Basat en Regles 🏡💬
+# Rule-Based Dialogue System Project 🏡💬
 
-**Aplicat a la Compra i Lloguer d'Habitatges**
+**Applied to Housing Sales and Rentals**
 
-## Visió general 📑
+## Overview 📑
 
-Aquest projecte desenvolupa un sistema de diàleg basat en regles per ajudar els usuaris a trobar habitatges que s'ajustin a les seves preferències. Utilitza dades en format JSON per emmagatzemar opcions d'habitatges i interactua amb l'usuari a través d'un xatbot que respon de manera fluida, permetent gestionar respostes incorrectes o incompletes.
+This project develops a rule-based dialogue system to assist users in finding housing that matches their preferences. It uses data in JSON format to store housing options and interacts with the user through a chatbot that responds smoothly, managing incorrect or incomplete answers.
 
-## Funcionalitats 🛠️
+## Features 🛠️
 
-- **Tractament de respostes**: Gestió d'errors en les respostes de l'usuari i funció `k_to_number` per gestionar nombres expressats en milers (com "30k").
-- **Opcions de l'usuari**: Permet utilitzar les paraules clau `any`, `quit` i `return` per interactuar de manera flexible amb el sistema.
-- **Ampliació de la base de dades**: Inclou més de 40 habitatges disponibles amb variacions en les preguntes per fer la conversa més humana.
-- **Filtrat avançat d'habitatges**: Recomanació de cases que compleixen amb les preferències indicades o que milloren certs requisits establerts per l'usuari.
+- **Response Handling**: Manages user input errors and includes the `k_to_number` function to handle numbers expressed in thousands (like "30k").
+- **User Options**: Allows the use of keywords `any`, `quit`, and `return` for flexible interaction with the system.
+- **Database Expansion**: Includes more than 40 available houses with variations in questions to make the conversation more human-like.
+- **Advanced Housing Filter**: Recommends houses that meet the indicated preferences or improve certain requirements set by the user.
 
-## Execució 🚀
+## Execution 🚀
 
-Per executar el sistema:
+To run the system:
 
-1. Assegura't que tens Python instal·lat i les llibreries necessàries (pandas, ipywidgets).
-2. Executa el fitxer Jupyter Notebook `P1_TVD_Marta_Jaume_Abril.ipynb` per iniciar el xatbot i interactuar amb el sistema de recomanació.
+1. Ensure you have Python installed along with the required libraries (pandas, ipywidgets).
+2. Run the Jupyter Notebook file `P1_TVD_Marta_Jaume_Abril.ipynb` to start the chatbot and interact with the recommendation system.
 
-## Resultats Clau 🔍
+## Key Results 🔍
 
-- **Interacció fluida**: El xatbot pot gestionar respostes incompletes i demanar aclariments quan sigui necessari, assegurant una experiència d'usuari més natural.
-- **Confirmacions d'eleccions**: L'usuari pot revisar i modificar les seves respostes gràcies a l'opció `return`.
-- **Millores a la base de dades**: Diverses ampliacions i variacions en les preguntes per fer la interacció més humana i evitar la monotonia.
+- **Smooth Interaction**: The chatbot can handle incomplete responses and ask for clarifications when needed, ensuring a more natural user experience.
+- **Choice Confirmations**: Users can review and modify their answers using the `return` option.
+- **Database Enhancements**: Several expansions and variations in questions to make the interaction more human-like and avoid monotony.
 
-## Conclusió 📝
+## Conclusion 📝
 
-Aquest projecte mostra l'eficàcia de l'ús de sistemes de diàleg basats en regles per oferir recomanacions personalitzades d'habitatges. S'han afegit funcionalitats per fer la interacció més realista i permetre a l'usuari sentir-se més en control de la conversa.
+This project demonstrates the effectiveness of rule-based dialogue systems in offering personalized housing recommendations. Features have been added to make the interaction more realistic and give users more control over the conversation.
 
-**Desenvolupat per**: Marta Juncarol, Jaume Mora, Abril Risso
+**Developed by**: Marta Juncarol, Jaume Mora, Abril Risso
